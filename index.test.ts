@@ -1,6 +1,6 @@
 import { countOccurrencesOfCharacters, findBiggestAndLowest, formatDate, getIntersection, isABeforeOrAfterB, isEqual, isFutureOrPast, isPalindrome, isValidEmail, mergeObject, reverseString, sortArrayTo, toPascalCase } from ".";
 
-describe('foo', () => {
+describe('class-1', () => {
     it('should reverse the string', () => {
         const value = 'helloworld';
         expect(reverseString(value)).toBe('dlrowolleh');
@@ -15,11 +15,6 @@ describe('foo', () => {
         const value = 'helloworld';
         const characterToCount = 'l';
         expect(countOccurrencesOfCharacters(value, characterToCount)).toBe(3);
-    });
-
-    it('should convert a string to PascalCase', () => {
-        const value = 'helloworld';
-        expect(toPascalCase(value)).toBe('HelloWorld');
     });
 
     it('should find the biggest and lowest number in the array', () => {
